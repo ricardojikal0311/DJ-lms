@@ -6,11 +6,11 @@ END_DATE="2022-12-18"    # YYYY-MM-DD
 
 # Min and max commits per selected day
 MIN_COMMITS=1
-MAX_COMMITS=3
+MAX_COMMITS=2
 
 # Min and max days per month to commit
-MIN_DAYS_PER_MONTH=6
-MAX_DAYS_PER_MONTH=7
+MIN_DAYS_PER_MONTH=16
+MAX_DAYS_PER_MONTH=17
 
 # Set author and committer name and email
 AUTHOR_NAME="ricardojikal0311"
