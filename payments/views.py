@@ -49,7 +49,7 @@ class PaymentGetwaysView(TemplateView):
 
 
 def stripe_charge(request):
-    stripe.api_key = settings.STRIPE_SECRET_KEY
+    stripe.api_key = 'settings'
 
     if request.method == "POST":
         charge = stripe.Charge.create(
